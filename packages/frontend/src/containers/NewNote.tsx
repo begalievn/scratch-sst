@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom";
 import LoaderButton from "../components/LoaderButton";
 import config from "../config";
 import { API } from "aws-amplify";
-import { NoteType } from "../types/note";
+import { NoteType } from "../types/notes";
 import { onError } from "../lib/errorLib";
 import { s3Upload } from "../lib/awsLib";
 import "./NewNote.css";
