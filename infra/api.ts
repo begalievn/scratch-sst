@@ -2,7 +2,7 @@ import { table, secret } from "./storage";
 
 // Create the API
 export const api = new sst.aws.ApiGatewayV2("Api", {
-  domain: $app.stage === "production" ? "yntymakfc.com" : undefined,
+  domain: $app.stage === "production" ? "api.yntymakfc.com" : undefined,
   transform: {
     route: {
       handler: {
